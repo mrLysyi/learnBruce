@@ -13,7 +13,7 @@ public class Hello {
 		return test;
 	}
 
-	public static void setTest(int test) {
+	public void setTest(int test) {
 		Hello.test = test;
 	}
 
