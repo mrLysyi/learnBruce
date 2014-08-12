@@ -30,6 +30,14 @@ public class Hello {
 		Hello hh = new Hello();
 		h.setTest(3);
 		System.out.println("h= "+h.test+" hh= "+hh.test);
+		Boolean bol = true;
+		int i;
+		i = bol ? 1 : -1;
+		System.out.println("Hello from git, i= "+i);
+		String strOne = "str";
+		String strTwo = "st";
+		System.out.println(strOne.equals(strTwo+'r'));
+	
 	}
 
 }
