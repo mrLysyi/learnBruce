@@ -1,5 +1,6 @@
 import java.util.Random;
 
+//import static first.debug.DebugOne.debug;
 import first.Array;
 import first.BinaryTest;
 import first.Constructor;
@@ -10,6 +11,7 @@ import first.Rand;
 //import first.StaticInit;
 import first.StringNull;
 import first.Swich;
+import first.ConectionManager;
 
 public class main {
 	
@@ -36,13 +38,19 @@ public class main {
 //			System.out.println(d.hashCode());
 //			new Dog();
 //			System.gc();
-			Array a1 = new   Array("s1"); 
-			Array a2 = new   Array("s2"); 
-			Array a3 = new   Array("s3"); 
-			Array a[] = new Array[3];
+//			Array a1 = new   Array("s1"); 
+//			Array a2 = new   Array("s2"); 
+//			Array a3 = new   Array("s3"); 
+//			Array a[] = new Array[3];
+//			
+//			a[0] = a1;
+//			a[1] = a2;
+//			a[2] = a3;
+//			debug();
+			System.out.println(ConectionManager.getConnections(1));
+			ConectionManager.test();
+			System.out.println("asdfsdfsdfsdf");
+			ConectionManager.test();
 			
-			a[0] = a1;
-			a[1] = a2;
-			a[2] = a3;
 		}
 }
