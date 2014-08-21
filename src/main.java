@@ -1,5 +1,7 @@
 import java.util.Random;
 
+
+
 //import static first.debug.DebugOne.debug;
 import first.Array;
 import first.BinaryTest;
@@ -52,6 +54,7 @@ public class main {
 			ConectionManager.test();
 			System.out.println("asdfsdfsdfsdf");
 			ConectionManager.test();
+			
 			
 		}
 }
