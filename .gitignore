@@ -1,0 +1,17 @@
+*.class
+bin/
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.class
+*.classpath
+*.project
+
+/bin/
+/bin/
+/bin/
+/bin/
